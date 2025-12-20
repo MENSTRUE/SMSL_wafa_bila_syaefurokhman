@@ -1,0 +1,19 @@
+# Virtual Environment
+env_msml/
+env_workflow/
+
+# Prometheus - ABAIKAN SELURUH FOLDER (Bukan cuma data)
+# Ini agar file .exe yang berat tidak bikin push gagal
+prometheus-3.8.1.windows-amd64/
+
+# IDE Metadata
+.idea/
+.vscode/
+
+# MLflow Local Runs
+mlruns/
+.trash/
+
+# Python Cache
+__pycache__/
+*.py[cod]
